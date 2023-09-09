@@ -5,8 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Comfortaa:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+            <h1>Library</h1>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li>
+                    <img src="img/home.png" alt="">
+                    <p>Home</p>
+                </li>
+                <li>
+                    <img src="img/profile.png" alt="">
+                    <p>Profile</p>
+                </li>
+                <li>
+                    <img src="img/messages.png" alt="">
+                    <p>Messages</p>
+                </li>
+                <li>
+                    <img src="img/history.png" alt="">
+                    <p>History</p>
+                </li>
+                <li>
+                    <img src="img/tasks.png" alt="">
+                    <p>Tasks</p>
+                </li>
+                <li>
+                    <img src="img/communities.png" alt="">
+                    <p>Communities</p>
+                </li>
+            </ul>
+   
+        </div>
+        <div class="settings">
+            <ul>
+                <li>
+                    <img src="img/settings.png" alt="">
+                    <p>Settings</p>
+                </li>
+                <li>
+                    <img src="img/privacy.png" alt="">
+                    <p>Privacy</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="welcome">
+        <img class="user_image" src="img/hermione.webp" alt="user profile image">
+        <div class="hi">
+            <h1>Hi there,</h1>
+            <p class="main-user-name">Hermione Granger (@Hermy)</p>
+        </div>
+        
+    </div>
+   
+    <div class="profile">
+        <img class="bell-img" src="img/bell.png" alt="Bell image">
+        <p class="user-name">Hermione</p>
+        <button class="header-btn">Log out</button>
+    </div>
     
+
+    <form action="#" method="get" id="form">
+        <div class="input">
+            <label for="bookTitle"><h1>Book Title*</h1></label>
+            <input type="text" name="book" id="bookTitle" required>
+        </div>        
+        <div class="input">
+            <label for="author">Author*</label>
+            <input type="text" name="author" id="author" required>
+        </div>
+        <div class="input">
+            <label for="pages">Number of pages*</label>
+            <input type="number" name="pages" id="pages" required>
+        </div>
+        <div class="input">
+            <label for="status">Status*</label>
+            <select name="status" id="status" required>
+                <option value="read">Read</option>
+                <option value="notRead">Not read</option>
+            </select>
+        </div>
+
+        <button class="header-btn submit" type="submit">Submit</button>
+    </form>
+
+    
+    <div class="dashboard">
+        <h1 class="title">Read books</h1>
+        <div class="card">
+            <h1>Harry Potter 1 and the Philosopher's Stone</h1>
+            <p>By J. K. Rowling</p>
+            <p>Number of Pages: 233</p>
+        </div>
+    </div>
+
+    <div class="announcement">
+        <div class="title">Desired books to read</div>
+        <!-- <div class="card">
+        </div> -->
+    </div>
+
+    <script src="event.js"></script> 
 </body>
 </html>
