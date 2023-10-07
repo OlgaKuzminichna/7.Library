@@ -21,6 +21,7 @@ To add a book to your library, follow these steps:
 2. Fill out the form with the book's details that you want to track
 3. After clicking "Submit," you will see the book appear in your library
 4. You can mark it as "Read" or "Not Read" and Remove it from your view
+5. Toggle the switch in the top right corner to switch between modes
 
 ## Preview
 
